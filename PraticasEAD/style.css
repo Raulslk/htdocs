@@ -1,0 +1,77 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-family: Tahoma;
+}
+
+header{
+    background-color: #00004b;
+    color: #ffffff;
+    padding: 34px 0px;
+    text-align: center;
+}
+
+main{
+    padding: 84px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #979797;
+}
+
+form{
+    padding: 68px;
+    border-radius: 8px;
+    color: #ffffff;
+    background-color: #00004b;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 8px #000000;
+}
+
+footer{
+    background-color: #00004b;
+    color: #ffffff;
+    padding: 12px 0px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.camp-form{
+    width: 345px;
+    height: 34px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 18px;
+    font-family: Tahoma;
+    font-size: 14px;
+}
+
+.camp-form-obs{
+    width: 345px;
+    height: 98px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 18px;
+    font-family: Tahoma;
+    font-size: 14px;
+}
+
+.btn-cadastrar{
+    height: 34px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    font-family: Tahoma;
+    font-size: 18px;
+    background-color: #008000;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.btn-cadastrar:hover{
+    background-color: #005b00;
+}
